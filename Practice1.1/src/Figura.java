@@ -8,8 +8,10 @@ this.area = area;
     }
 
 public Figura() {
-    System.out.println("Se creo una figura"); }
 
+ System.out.println("Se creo la figura");
+
+}
 public void area(){
 System.out.println("El nombre de la figura es: "+nombre+ "El area de la figura es: \n"+nombre);
 

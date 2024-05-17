@@ -1,7 +1,7 @@
 public class Circulo extends Figura{
     double radio;
     public Circulo(String nombre, double radio){
-        super();
+        super(nombre, radio);
         this.radio = radio;
         this.nombre = nombre;
     }
@@ -14,7 +14,5 @@ public class Circulo extends Figura{
         System.out.println("El area del circulo es: "+area);
     }
 
-    public void Dibujarfigura(){
-        System.out.println("Dibujando figura: "+nombre);
-    }
+
 }

@@ -14,7 +14,5 @@ public class Rectangulo  extends Figura{
         double area = base * altura;
         System.out.println("El area del rectangulo es: "+area);
     }
-    public void Dibujarfigura(){
-        System.out.println("Dibujando figura: "+nombre);
-    }
+  
 }
