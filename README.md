@@ -4,6 +4,6 @@ Hello, in this repository I go to put my practice of my carrier, I don´t know i
 
 
 Aboout me:
-Student: Jasher Abraham Carrazco Vaquera
-University: Technological Institute of Durango
-Carrier: Informatic engineer 
+* Student: Jasher Abraham Carrazco Vaquera
+* University: Technological Institute of Durango
+* Carrier: Informatic engineer 
