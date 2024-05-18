@@ -1,4 +1,4 @@
-public class Figura {
+public abstract class Figura {
 String nombre;
 double area;
 
