@@ -27,5 +27,6 @@ public class App {
                 System.out.println("Opción no válida");
                 break;
         }
+        tec.close();
  }
 }

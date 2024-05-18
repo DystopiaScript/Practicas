@@ -55,8 +55,10 @@ public class app {
         System.exit(0);
         default:
         System.out.println("Ingre alguna opcion valida (1-4)");
-            
+        
     }
+tec.close();
 
   }
+  
 }

@@ -1,5 +1,4 @@
 package Main;
-import java.util.Scanner;
 import javax.swing.JOptionPane;
 import persona.Claseprincipal.Herencia.EmpleadoAdministrativo;
 import persona.Claseprincipal.Herencia.EmpleadoOperativo;
@@ -12,7 +11,6 @@ public class PersonaPrueba {
         int edad, horastrabajadas;
         EmpleadoAdministrativo EA1 = new EmpleadoAdministrativo();
         EmpleadoOperativo EO1 = new EmpleadoOperativo();
-        Scanner tec = new Scanner(System.in);
         while (true) {
             opcion=Integer.parseInt(JOptionPane.showInputDialog("Menú de Opciones \n"
            + "1.- Alta Empleado Operativo\n"
@@ -47,7 +45,7 @@ public class PersonaPrueba {
            }
             
         }    
-
+        
     }
 
 }

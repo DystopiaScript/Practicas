@@ -1,4 +1,4 @@
-Hello, in this repository I go to put my practices of my carrier, I don´t know if I go to upload the pasts practices, but I go to upload the next all practice or activtys here.
+Hello, in this repository I go to put my practices of my carrier, I don´t know if I go to upload the pasts practices, but I go to upload the next all practice or activitys here.
 
 1. REPORTE, It is the practices of the second semester about OOP, Obeject-oriented-programming or in spanish "Programación orientada a objetos" (POO)
 
