@@ -1,8 +1,10 @@
 package POKEMON.Logica.pokemons;
-import POKEMON.Logica.IAgua;
+import POKEMON.Logica.tipos.IAgua;
 import POKEMON.Logica.Pokemon;
 public class Squirtle extends Pokemon implements IAgua{
+public Squirtle() {
 
+}
     @Override
     public void atacarHidrobomba() {
         System.out.println("Squirtle ataca con Hidrobomba");

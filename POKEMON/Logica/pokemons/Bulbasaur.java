@@ -1,8 +1,10 @@
 package POKEMON.Logica.pokemons;
 
 import POKEMON.Logica.Pokemon;
-import POKEMON.Logica.IPlanta;
+import POKEMON.Logica.tipos.IPlanta;
 public class Bulbasaur extends  Pokemon implements IPlanta{
+  public Bulbasaur(){
+  }
 
     @Override
     public void atacarDrenaje() {

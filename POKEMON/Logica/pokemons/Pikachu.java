@@ -1,6 +1,6 @@
 package POKEMON.Logica.pokemons;
 
-import POKEMON.Logica.IElectrico;
+import POKEMON.Logica.tipos.IElectrico;
 import POKEMON.Logica.Pokemon;
 
 public class Pikachu extends Pokemon implements IElectrico{
@@ -30,6 +30,8 @@ public class Pikachu extends Pokemon implements IElectrico{
     protected void ataqueMoridisco() {
         System.out.println("Pikachu ataca con Moridisco");
        
+    }
+    public Pikachu(){
     }
 
     @Override
