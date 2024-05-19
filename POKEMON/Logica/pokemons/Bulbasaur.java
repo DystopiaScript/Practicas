@@ -18,19 +18,19 @@ public class Bulbasaur extends  Pokemon implements IPlanta{
     }
 
     @Override
-    protected void ataquePlacaje() {
+    public void ataquePlacaje() {
     System.out.println("Bulbasaur ataca con Placaje");    
         
     }
 
     @Override
-    protected void ataqueAranizado() {
+    public void ataqueAranizado() {
     System.out.println("Bulbasaur ataca con Arañazo");
         
     }
 
     @Override
-    protected void ataqueMoridisco() {
+    public void ataqueMoridisco() {
         
     System.out.println("Bulbasaur ataca con Moridisco");
     }

@@ -23,17 +23,17 @@ public Charmander() {
     }
 
     @Override
-    protected void ataquePlacaje() {
+    public void ataquePlacaje() {
     System.out.println("Charmander ataca con Placaje");
     }
 
     @Override
-    protected void ataqueAranizado() {
+    public void ataqueAranizado() {
     System.out.println("Charmander ataca con Arañazo");
        }   
 
     @Override
-    protected void ataqueMoridisco() {        
+    public void ataqueMoridisco() {        
     System.out.println("Charmander ataca con Moridisco");
     }
 

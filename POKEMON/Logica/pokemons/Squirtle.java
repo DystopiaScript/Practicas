@@ -21,17 +21,17 @@ public Squirtle() {
             }
 
     @Override
-    protected void ataquePlacaje() {
+    public void ataquePlacaje() {
         System.out.println("Squirtle ataca con Placaje");
     }
 
     @Override
-    protected void ataqueAranizado() {
+    public void ataqueAranizado() {
        System.out.println("Squirtle ataca con Arañazo");     
     }
 
     @Override
-    protected void ataqueMoridisco() {
+    public void ataqueMoridisco() {
         System.out.println("Squirtle ataca con Moridisco");
     }
 

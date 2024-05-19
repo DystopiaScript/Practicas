@@ -16,18 +16,18 @@ public class Pikachu extends Pokemon implements IElectrico{
     }
 
     @Override
-    protected void ataquePlacaje() {
+    public void ataquePlacaje() {
     System.out.println("Pikachu ataca con Placaje");  
     }
 
     @Override
-    protected void ataqueAranizado() {
+    public void ataqueAranizado() {
         System.out.println("Pikachu ataca con Arañazo");
     
     }
 
     @Override
-    protected void ataqueMoridisco() {
+    public void ataqueMoridisco() {
         System.out.println("Pikachu ataca con Moridisco");
        
     }
