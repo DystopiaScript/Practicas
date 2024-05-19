@@ -1,7 +1,12 @@
-package POKEMON.Logica;
+package POKEMON.Logica.pokemons;
+
+import POKEMON.Logica.tipos.IFuego;
+import POKEMON.Logica.Pokemon;
 
 public class Charmander extends Pokemon implements IFuego{
+public Charmander() {
 
+}
     @Override
     public void atacarPunioFuego() {
     System.out.println("Charmander ataca con Puño Fuego");
