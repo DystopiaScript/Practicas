@@ -1,5 +1,4 @@
-package persona.Claseprincipal.Herencia;
-
+package persona.Claseprincipal.Herencia; 
 import persona.Claseprincipal.Persona;
 
 public class EmpleadoAdministrativo extends Persona{
@@ -17,11 +16,12 @@ public class EmpleadoAdministrativo extends Persona{
       this.sueldoneto=sueldoneto;
       this.isr=isr;
     }
+    //Practica 6 (Se esta sobreescribiendo el metodo listarDatos)
     public float CalculodeSueldoNeto(float sueldobase, float isr){
-        this.sueldobase=sueldobase;
-        this.isr=isr;
-        this.sueldoneto=sueldobase-isr;
-        return sueldoneto;
+      this.sueldobase=sueldobase;
+      this.isr=isr;
+      this.sueldoneto=sueldobase-isr;
+      return sueldoneto;
     }
     
 }
