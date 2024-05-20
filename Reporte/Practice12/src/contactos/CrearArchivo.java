@@ -13,6 +13,7 @@ public class CrearArchivo {
         System.out.println("No se pudo crear el archivo");
  
       }
-
+System.out.println("Archivo creado");
 }
+
 }
