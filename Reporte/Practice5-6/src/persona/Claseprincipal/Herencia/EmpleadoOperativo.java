@@ -8,14 +8,14 @@ public class EmpleadoOperativo extends persona.Claseprincipal.Persona{
     float precioporhora;
     public void altaTrabajador(String nombre, String domicilio, String telefono, 
     String curp, String rfc, int edad, float sueldobase, float sueldoneto, float precioporhora, int horastrabajadas){
-    this.edad=edad;
-    this.nombre=nombre;
-    this.domicilio=domicilio;
-    this.telefono=telefono;
-    this.curp=curp;
-    this.rfc=rfc;
+    super.edad=edad;
+    super.nombre=nombre;
+    super.domicilio=domicilio;
+    super.telefono=telefono;
+    super.curp=curp;
+    super.rfc=rfc;
     this.sueldobase=sueldobase;
-    this.sueldoneto=sueldoneto;
+    super.sueldoneto=sueldoneto;
     this.precioporhora=precioporhora;
     this.horastrabajadas=horastrabajadas;
     }
