@@ -29,6 +29,7 @@ public class PersonaPrueba {
                 rfc=JOptionPane.showInputDialog("RFC: ");
                 sueldoneto=horastrabajadas*precioporhora;
                 EO1.altaTrabajador(nombre, domicilio, telefono, curp, rfc, edad, sueldobase, sueldoneto, precioporhora, horastrabajadas);
+                break;
                 case 2:
                 sueldobase=Float.parseFloat(JOptionPane.showInputDialog("Sueldo base: "));
                 imp=sueldobase*.32f;
