@@ -6,14 +6,14 @@ public class EmpleadoAdministrativo extends Persona{
 
     public void altaTrabajador(String nombre, String domicilio, String telefono, 
     String curp, String rfc, int edad, float sueldobase, float sueldoneto, float isr){
-      this.nombre=nombre;
-      this.domicilio=domicilio;
-      this.telefono=telefono;  
-      this.curp=curp;
-      this.rfc=rfc;
-      this.edad=edad;
+      super.nombre=nombre;
+      super.domicilio=domicilio;
+      super.telefono=telefono;  
+      super.curp=curp;
+      super.rfc=rfc;
+      super.edad=edad;
       this.sueldobase=sueldobase;
-      this.sueldoneto=sueldoneto;
+      super.sueldoneto=sueldoneto;
       this.isr=isr;
     }
     //Practica 6 (Se esta sobreescribiendo el metodo listarDatos)
