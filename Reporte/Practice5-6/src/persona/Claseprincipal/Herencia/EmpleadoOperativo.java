@@ -27,7 +27,7 @@ JOptionPane.showMessageDialog(null,"Datos del Empleado \n"
 +"\nEdad: " + edad  
 +"\n Sueldo base: "+sueldobase 
 +"\n Horas Trabajadas: "+horastrabajadas
-+"\n Precio por Hora: "+precioporhora)
++"\n Precio por Hora: "+precioporhora);
     }
     
 }
