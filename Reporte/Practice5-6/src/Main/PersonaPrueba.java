@@ -21,7 +21,7 @@ public class PersonaPrueba {
            +"3.- Listar datos Empleados Operativo\n"
            +"4.- Salir" ));
            switch (opcion) {
-            //Caso 1, pide los datos del empleado administrativo
+            //Case 1, get the employee's data and calculate the net salary
             case 1:
                 nombre=JOptionPane.showInputDialog("Nombre del Empleado: ");
                 edad=Integer.parseInt(JOptionPane.showInputDialog("Edad: "));
@@ -32,9 +32,9 @@ public class PersonaPrueba {
                 sueldobase=Float.parseFloat(JOptionPane.showInputDialog("Sueldo Base: "));
                 curp=JOptionPane.showInputDialog("CURP: ");
                 rfc=JOptionPane.showInputDialog("RFC: ");
-                //Calculo del sueldo neto
+                //Calculos of the net salary
                 sueldoneto=horastrabajadas*precioporhora;
-                //Metodo para dar de alta al empleado
+                //Method to save the employee's data
                 EO1.altaTrabajador(nombre, domicilio, telefono, curp, rfc, edad, sueldobase, sueldoneto, precioporhora, horastrabajadas);
                 break;
                 //Caso 2, pide el sueldo base y calcula el sueldo neto del empleado administrativo
