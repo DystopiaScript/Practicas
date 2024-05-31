@@ -7,7 +7,7 @@ public class PersonaPrueba {
     public static void main(String[] args) {
         int opcion;
         String nombre, domicilio, telefono, curp, rfc;
-        float sueldobase=0.0f, sueldoneto, precioporhora, imp;
+        float sueldobase, sueldoneto, precioporhora, imp;
         int edad, horastrabajadas;
         EmpleadoAdministrativo EA1 = new EmpleadoAdministrativo();
         EmpleadoOperativo EO1 = new EmpleadoOperativo();
@@ -28,8 +28,7 @@ public class PersonaPrueba {
                 curp=JOptionPane.showInputDialog("CURP: ");
                 rfc=JOptionPane.showInputDialog("RFC: ");
                 sueldoneto=horastrabajadas*precioporhora;
-                EO1.altaTrabajador(nombre, domicilio, telefono, curp, rfc, edad, sueldobase, sueldoneto, precioporhora, horastrabajadas);
-                break;
+                EO1.altaTrabajador(nombre, domicilio, telefono, curp, rfc, edad, sueldoneto, precioporhora, horastrabajadas);
                 case 2:
                 sueldobase=Float.parseFloat(JOptionPane.showInputDialog("Sueldo base: "));
                 imp=sueldobase*.32f;
@@ -38,6 +37,7 @@ public class PersonaPrueba {
                 break;
                 case 3:
                 EO1.listarDatos();
+                break;
                 case 4:
                 System.exit(0);
             default:
