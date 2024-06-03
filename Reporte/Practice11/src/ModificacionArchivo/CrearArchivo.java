@@ -9,7 +9,7 @@ import java.io.FileWriter;
 
 public class CrearArchivo {
     public void crearArchivo(){
-        //Creación del Archivo
+        //create file
         try{
             FileOutputStream f= new FileOutputStream("archivo1.txt");
             DataOutputStream archivo = new DataOutputStream(f);
@@ -17,7 +17,7 @@ public class CrearArchivo {
             System.out.println("Existe un error: "+ex);
 
         }
-        //Escritura en el Archivo
+        //write to file
         String nombre, direccion, telefono;
         FileWriter w;
         try{
