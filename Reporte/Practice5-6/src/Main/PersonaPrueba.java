@@ -37,22 +37,22 @@ public class PersonaPrueba {
                 //Method to save the employee's data
                 EO1.altaTrabajador(nombre, domicilio, telefono, curp, rfc, edad, sueldobase, sueldoneto, precioporhora, horastrabajadas);
                 break;
-                //Caso 2, pide el sueldo base y calcula el sueldo neto del empleado administrativo
+                //Caso 2, get the employee's data and calculate the net salary
                 case 2:
                 sueldobase=Float.parseFloat(JOptionPane.showInputDialog("Sueldo base: "));
                 imp=sueldobase*.32f;
                 JOptionPane.showMessageDialog(null, "El sueldo Neto del Empleado es : "
-                //Metodo para calcular el sueldo neto
+                //Method to calculate the net salary
                 +EA1.CalculodeSueldoNeto(sueldobase, imp));
                 break;
                 //Lista los datos del empleado operativo
                 case 3:
                 EO1.listarDatos();
                 break;
-                //Cierra el programa
+                //Case 4, exit the program
                 case 4:
                 System.exit(0);
-                //Mensaje de error
+                //Mesaage if the user selects an invalid option
             default:
             System.out.println("Selecciona una opcion correcta (1-4)");
                 break;
